@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /*
- * main - annoying
- *
+ * main - block
+ *Return: 0
  *
  */
 

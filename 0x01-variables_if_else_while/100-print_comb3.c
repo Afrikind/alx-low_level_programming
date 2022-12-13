@@ -19,11 +19,11 @@ int main(void)
 			if (tens < 8)
 			{
 				putchar(',');
-				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
 	putchar('\n');
 
 	return (0);
-}	
+}

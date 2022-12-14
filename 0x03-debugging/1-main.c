@@ -5,7 +5,7 @@
  * Return: Always 0
  */
 
-int main(void);
+int main(void)
 {
 	int i;
 
@@ -19,5 +19,6 @@ int main(void);
  * }
  */
 printf("infinite loop avoided ! \\o\/\n");
+
 return (0);
 }

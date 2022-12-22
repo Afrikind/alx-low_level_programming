@@ -7,7 +7,7 @@
  * @src: The source string.
  * @n: The Maximum number of bytes to be copied from source.
  *
- * Return: A pointer to the resulting string dest.
+ * Return: dest
  */
 char *_strcpy(char *dest, char *src, int n)
 {

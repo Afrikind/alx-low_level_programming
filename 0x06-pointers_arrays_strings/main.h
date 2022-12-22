@@ -1,13 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/**
- * File: main.h
- * main.h = MAIN.H
- * author: anthony
- * Desc: main.h descriptions
- * Used in the 0x06. C - more pointers, arrays and strings directory.
- */
 
 int _putchar(char c);
 char *_strcat(char *dest, char *src);

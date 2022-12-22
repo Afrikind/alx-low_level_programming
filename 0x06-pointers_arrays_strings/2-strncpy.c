@@ -3,24 +3,25 @@
 /**
  * _strcpy - Copies at most an inputted Number
  *  of bytes from stringsrc into dest.
- * @dest: The buffer storing the string copy.
- * @src: The source string.
- * @n: The Maximum number of bytes to be copied from source.
+ * @dest: input Value
+ * @src: input Value
+ * @n: input Value
  *
  * Return: dest
  */
 char *_strcpy(char *dest, char *src, int n)
 {
-	int index = 0, src_len = 0;
-
-	while (src[index++])
-		src_len++;
-
-	for (index = 0; src[index] && index < n; index++)
-		dest[index] = src[index];
-
-	for (index = src_len; index < n; index++)
-		dest[index] = '\0';
-
+	int J;
+	J = 0;
+	while (J < n && src[J] != '\0')
+	{
+		dest[J] = src[J];
+		j++;
+	}
+	while (J < n)
+	{
+		dest[j] = '\0';
+		j++;
+	}
 	return (dest);
 }

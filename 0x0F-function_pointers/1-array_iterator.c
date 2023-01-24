@@ -1,4 +1,3 @@
-#include <stdlib>
 #include "functions_pointer.h"
 
 /**
